@@ -1,0 +1,14 @@
+{
+    "index": "Introduccion",
+    "ingreso": "Ingreso",
+    "navegacion": "Navegacion",
+    "rol_administrador": "Rol Administrador",
+    "rol_docente": "Rol Docente",
+    "rol_estudiante": "Rol Estudiante",
+    "contact": {
+        "title": "Linkedin",
+        "type": "page",
+        "href": "https://www.linkedin.com/in/alejandro-lopez-pineda/",
+        "newWindow": true
+    }
+}

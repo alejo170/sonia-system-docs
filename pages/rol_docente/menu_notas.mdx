@@ -1,0 +1,33 @@
+import Image from 'next/image';
+
+# Notas
+En esta sección se podrá ver una tabla con las notas del corte 1, corte 2 y nota final 
+de los estudiantes en una determinada asignatura, grado y año, 
+también una barra de búsqueda y un botón para asignar notas.
+<br />
+<Image src="/notas.png" alt="notas" width={1357} height={611} />
+
+## Asignar Notas
+Después de dar clic en el botón de Asignar Notas, se mostrará esta pantalla.
+<br />
+<Image src="/asignar_notas.png" alt="asignar_notas" width={1344} height={608} />
+
+Se procede a seleccionar los campos (Estudiante, Asignatura, Grado, Año) y 
+llenar los campos (Corte 1, Corte 2), después se da clic en Asignar notas y 
+en su defecto clic en Cancelar para no asignar. 
+Posteriormente la aplicación lo redirigirá a la pantalla principal de notas.
+
+## Editar nota
+Al dar clic en el icono <Image src="/pencil.png" alt="editar" width={41} height={44} />  que se encuentra al lado de la nota del estudiante, 
+este lo envía a la pantalla para empezar a editar dicha nota.
+<br />
+<Image src="/editar_notas.png" alt="editar_notas" width={1356} height={606} />
+
+Después de editar los campos Corte 1 y Corte 2, 
+se procede a dar clic en el botón Editar Nota y 
+en su defecto clic en Cancelar para no editar. 
+Posteriormente la aplicación lo redirigirá a la pantalla principal de notas.
+
+## Eliminar nota
+Al dar clic en el icono <Image src="/trash.png" alt="eliminar" width={41} height={44} />  que se encuentra al lado de la nota del estudiante, 
+este lo elimina inmediatamente.

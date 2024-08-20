@@ -1,0 +1,45 @@
+import { Callout } from "nextra-theme-docs";
+import { Tabs, Steps, Cards, Card } from "nextra/components";
+
+# Bienvenido a Sonia
+
+
+<Steps>
+    ### Introducción
+    Este manual de usuario está diseñado para proporcionar una guía detallada sobre cómo 
+    utilizar el Sistema de Gestión de Notas. El sistema permite a los usuarios gestionar 
+    de manera eficiente la entrada, consulta y organización de notas académicas. 
+    Este documento describe las características principales del sistema, 
+    los pasos para ingresar al sistema, y cómo realizar las tareas comunes.
+
+    ### Objetivo
+    El objetivo principal del proyecto es poder brindar una herramienta intuitiva, 
+    estable y llamativa que permita el control y seguimiento de todo el proceso de 
+    recolección de notas en una institución educativa, brindando un soporte confiable 
+    y la posibilidad de optimizar y mejorar a futuro otras áreas administrativas.
+
+    ### Perspectiva
+    La plataforma de notas estará diseñada para que los docentes puedan cumplir con 
+    los requerimientos establecidos en una institución educativa: subir notas, 
+    actualizar notas, entre otros. Por último, se busca que los padres puedan tener 
+    a su alcance información importante del proceso académico de sus hijos, puedan 
+    consultar las notas y ver la información de contacto de cada docente.
+
+</Steps>
+
+<Callout>Sonia: Sistema Optimizado para Notas e Información académica</Callout>
+
+El sistema tiene 3 roles:
+
+<Tabs items={['Administrador','Docente','Estudiante']}>
+    <Tabs.Tab>Con el rol Administrador, tiene acceso a toda la gestión de usuarios, asignaturas, grados y asignaciones</Tabs.Tab>
+    <Tabs.Tab>Con el rol Docente, tiene acceso a la gestión de notas de los estudiantes</Tabs.Tab>
+    <Tabs.Tab>Con el rol Estudiante, solo tiene acceso a ver sus respectivas notas y descargarlas en un archivo PDF</Tabs.Tab>
+</Tabs>
+
+<Cards>
+    <Card title="Introducción" href="/" />
+    <Card title="Ingreso" href="/ingreso" />
+    <Card title="Navegación" href="/navegacion" />
+    <Card title="Proyecto Sonia" href="https://sonia-system.vercel.app/" />
+</Cards>
